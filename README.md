@@ -103,6 +103,8 @@ Extracted JSON:
   "age": 29
 }
 
+---
+
 ### 🔒 Notes on Security
 
 Never commit your API key to GitHub.
