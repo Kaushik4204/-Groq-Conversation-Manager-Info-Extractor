@@ -88,13 +88,19 @@ README.md — This file
 
 ## 📊 Example Output
 
-Sample chat:
+## 📝 Sample Chat Extraction
+
+### 💬 Input Chat
+
 
 Hi, my name is John Doe. I’m 29 years old. You can reach me at john@example.com or call 9876543210. I live in Bangalore.
 
 
 Extracted JSON:
 
+
+### 📊 Extracted JSON
+```json
 {
   "name": "John Doe",
   "email": "john@example.com",
@@ -102,6 +108,7 @@ Extracted JSON:
   "location": "Bangalore",
   "age": 29
 }
+```
 
 ---
 
