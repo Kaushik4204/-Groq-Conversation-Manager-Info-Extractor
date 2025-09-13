@@ -45,6 +45,7 @@ If no key is found, the notebook will securely prompt you to paste your key (hid
 ---
 
 ### ⚙️ Features
+
 #### ✅ Conversation Manager
 
 Maintains chat history
@@ -56,6 +57,7 @@ Periodic summarization (e.g., every 3rd run)
 Summarization via Groq API or offline fallback
 
 
+
 ####  ✅ Information Extraction
 
 Extracts name, email, phone, location, age from free-form chats
@@ -63,6 +65,7 @@ Extracts name, email, phone, location, age from free-form chats
 Uses Groq’s function-calling API
 
 Falls back to regex-based parser offline
+
 
 
 ####  ✅ Schema Validation
