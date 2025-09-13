@@ -1,0 +1,35 @@
+[
+  {
+    "chat": "Hi, my name is John Doe. I\u2019m 29 years old. You can reach me at john@example.com or call 9876543210. I live in Bangalore.",
+    "extracted": {
+      "age": 29,
+      "email": "john@example.com",
+      "location": "Bangalore",
+      "name": "John Doe",
+      "phone": "9876543210"
+    },
+    "valid": true
+  },
+  {
+    "chat": "Hello, I\u2019m Alice, 35 years old from New York. Email: alice@mail.com, Phone: 1234567890.",
+    "extracted": {
+      "age": 35,
+      "email": "alice@mail.com",
+      "location": "New York",
+      "name": "Alice",
+      "phone": "1234567890"
+    },
+    "valid": true
+  },
+  {
+    "chat": "Name\u2019s Rahul Sharma, age 41. Based in Mumbai. Email rahul.sharma@mail.in, phone 9988776655.",
+    "extracted": {
+      "age": 41,
+      "email": "rahul.sharma@mail.in",
+      "location": "Mumbai",
+      "name": "Rahul Sharma",
+      "phone": "9988776655"
+    },
+    "valid": true
+  }
+]
